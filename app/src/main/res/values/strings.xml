@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Whatsapp Clone</string>
+    <string name="sign_up_phone">Continue with phone</string>
+    <string name="fb">Facebook</string>
+    <string name="google">Google</string>
+    <string name="sign_up_btn">Sign Up</string>
+    <string name="sign_up_text">Are you registered? Log In</string>
+    <string name="hint_pass">Password</string>
+    <string name="hint_username">Username</string>
+    <string name="hint_email">Email</string>
+    <string name="sign_in_text">Are you not registered? Sign up</string>
+    <string name="sign_in_btn">Sign In</string>
+    <string name="logout">Log Out\n</string>
+
+    <string name="default_web_client_id">"822270967072-kadmmfmnoic80h63hd96nnvqad30rje1.apps.googleusercontent.com</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#BFBDBD"
+    android:gravity="center"
+    tools:context=".Activity.SignUp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:background="#BFBDBD"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_gravity="center"
+            android:layout_margin="20dp"
+            android:importantForAccessibility="no"
+            android:src="@drawable/whatsapp" />
+
+
+        <EditText
+            android:id="@+id/sign_in_userEmail"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_margin="10dp"
+            android:background="@color/white"
+            android:hint="@string/hint_email"
+            android:inputType="textEmailAddress"
+            android:padding="10dp"
+            android:textColor="@color/black"
+            android:textColorHint="#AAAAAA" />
+
+        <EditText
+            android:id="@+id/sign_in_userPassword"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_margin="10dp"
+            android:background="@color/white"
+            android:hint="@string/hint_pass"
+            android:inputType="textPassword"
+            android:padding="10dp"
+            android:textColor="@color/black"
+            android:textColorHint="#AAAAAA" />
+
+
+            <TextView
+                android:id="@+id/sign_in_loginText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end"
+                android:layout_margin="10dp"
+                android:text="@string/sign_in_text"
+                android:textColor="#4CAD50"
+                android:textSize="14sp" />
+
+        <Button
+            android:id="@+id/sign_in_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:backgroundTint="#4CAE50"
+            android:text="@string/sign_in_btn"
+            android:textAllCaps="false" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp">
+
+            <Button
+                android:id="@+id/sign_in_google_btn"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginEnd="10dp"
+                android:layout_weight="1"
+                android:drawableStart="@drawable/google"
+                android:text="@string/google"
+                android:textAllCaps="false" />
+
+            <Button
+                android:id="@+id/sign_in_facebook_btn"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:backgroundTint="#1877F1"
+                android:drawableStart="@drawable/facebook"
+                android:text="@string/fb"
+                android:textAllCaps="false" />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/sign_in_phone_number"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="10dp"
+            android:text="@string/sign_up_phone"
+            android:textColor="#4CAD50"
+            android:textSize="20sp" />
+    </LinearLayout>
+</LinearLayout>
